@@ -34,9 +34,6 @@ X_test=np.array(pd.read_csv('X_test.csv', header=None))
 # In[3]:
 
 
-# TODO: Your code for data exploration should be inserted here. Create more cells as you see fit. 
-# Suggestions: what is the size of the datasets? Which feature has the largest standard deviation? Do there exist missing values?
-
 #Finding the size of datasets
 print('Data Size of each datasets')
 print('X_train has {} rows and {} columns'.format(*X_train.shape)) #Print X_train shape
